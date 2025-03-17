@@ -4,3 +4,4 @@ result = 0
 #   result = result + i
 result = n * (n +1) // 2
 print(result)
+
