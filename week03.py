@@ -23,3 +23,20 @@ def move_zeros(a_list):
 a_list = [8, 0, 3, 0, 12]
 move_zeros(a_list)
 print(a_list)
+
+groups = ['HOT', 'Seventeen', 'Black Pink', 'NJZ']
+ratings = [1, 2, 4, 3]
+
+groups_rating = list(zip(groups, ratings))
+print(groups_rating)
+
+
+
+def inters(l1, l2):
+    s1 = set(l1)
+    s2 = set(l2)
+    return list(s1 & s2)  # return list(s1.intersection(s2))
+
+l1 = [45, 5, 22, 31, 7, 19]
+l2 = [2, 1, 5, 22, 7, 38, 27, 19, 13, 41]
+print(inters(l1, l2))
